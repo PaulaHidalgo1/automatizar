@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: paulahidalgo/automatizar:latest , paulahidalgo/automatizar:${{github.event.pull_request.title}}
+          tags: paulahidalgo/automatizarr:latest , paulahidalgo/automatizarr:${{github.event.pull_request.title}}
